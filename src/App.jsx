@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { User, CheckCircle2, RotateCcw, Award, Briefcase } from 'lucide-react';
+import logo from './assets/logo.png';
 
 const questionsData = [
   {
@@ -200,7 +201,7 @@ export default function App() {
         
         {/* Header */}
         <header className="text-center mb-4 md:mb-6 flex flex-col items-center animate-fade-in-down">
-          <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Logo Pemprov Bengkulu dan Putra Putri Kampus" className="h-28 md:h-36 lg:h-[22vh] mb-2 md:mb-4 drop-shadow-2xl animate-float object-contain" />
+          <img src={logo} alt="Logo Pemprov Bengkulu dan Putra Putri Kampus" className="h-28 md:h-36 lg:h-[22vh] mb-2 md:mb-4 drop-shadow-2xl animate-float object-contain" />
           
           <div className="inline-block bg-amber-500/10 border border-amber-500/20 px-4 py-1.5 md:py-2 rounded-full mb-3 shadow-lg">
             <span className="text-amber-500 text-xs md:text-sm font-semibold uppercase tracking-widest">
